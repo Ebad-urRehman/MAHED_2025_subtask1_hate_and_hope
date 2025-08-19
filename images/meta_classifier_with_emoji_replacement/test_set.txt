@@ -1,0 +1,68 @@
+[Hope] Epoch 1/8 | Avg Loss: 0.4862 | Accuracy: 0.7674
+[Hope] Epoch 1 | Loss: 167.7377 | Acc: 0.7674
+[Hope] Epoch 2/8 | Avg Loss: 0.3792 | Accuracy: 0.8257
+[Hope] Epoch 2 | Loss: 130.8389 | Acc: 0.8257
+[Hope] Epoch 3/8 | Avg Loss: 0.2337 | Accuracy: 0.9008
+[Hope] Epoch 3 | Loss: 80.6365 | Acc: 0.9008
+[Hope] Epoch 4/8 | Avg Loss: 0.1322 | Accuracy: 0.9483
+[Hope] Epoch 4 | Loss: 45.6184 | Acc: 0.9483
+[Hope] Epoch 5/8 | Avg Loss: 0.0806 | Accuracy: 0.9693
+[Hope] Epoch 5 | Loss: 27.7976 | Acc: 0.9693
+[Hope] Epoch 6/8 | Avg Loss: 0.0460 | Accuracy: 0.9817
+[Hope] Epoch 6 | Loss: 15.8579 | Acc: 0.9817
+[Hope] Epoch 7/8 | Avg Loss: 0.0446 | Accuracy: 0.9837
+[Hope] Epoch 7 | Loss: 15.3981 | Acc: 0.9837
+[Hope] Epoch 8/8 | Avg Loss: 0.0488 | Accuracy: 0.9820
+[Hope] Epoch 8 | Loss: 16.8213 | Acc: 0.9820
+
+📊 Hope Classification Report
+              precision    recall  f1-score   support
+
+           0      0.839     0.820     0.830      1000
+           1      0.551     0.585     0.567       378
+
+    accuracy                          0.755      1378
+   macro avg      0.695     0.702     0.698      1378
+weighted avg      0.760     0.755     0.758      1378
+
+Training Hate Classifier...
+[Hate] Epoch 1/8 | Avg Loss: 0.3593 | Accuracy: 0.8316
+[Hate] Epoch 1 | Loss: 123.9714 | Acc: 0.8316
+[Hate] Epoch 2/8 | Avg Loss: 0.2585 | Accuracy: 0.8835
+[Hate] Epoch 2 | Loss: 89.1862 | Acc: 0.8835
+[Hate] Epoch 3/8 | Avg Loss: 0.1571 | Accuracy: 0.9380
+[Hate] Epoch 3 | Loss: 54.1841 | Acc: 0.9380
+[Hate] Epoch 4/8 | Avg Loss: 0.0686 | Accuracy: 0.9784
+[Hate] Epoch 4 | Loss: 23.6752 | Acc: 0.9784
+[Hate] Epoch 5/8 | Avg Loss: 0.0483 | Accuracy: 0.9846
+[Hate] Epoch 5 | Loss: 16.6526 | Acc: 0.9846
+[Hate] Epoch 6/8 | Avg Loss: 0.0350 | Accuracy: 0.9877
+[Hate] Epoch 6 | Loss: 12.0692 | Acc: 0.9877
+[Hate] Epoch 7/8 | Avg Loss: 0.0236 | Accuracy: 0.9917
+[Hate] Epoch 7 | Loss: 8.1557 | Acc: 0.9917
+[Hate] Epoch 8/8 | Avg Loss: 0.0346 | Accuracy: 0.9886
+[Hate] Epoch 8 | Loss: 11.9381 | Acc: 0.9886
+
+📊 Hate Classification Report
+              precision    recall  f1-score   support
+
+           0      0.915     0.843     0.878      1118
+           1      0.496     0.665     0.568       260
+
+    accuracy                          0.809      1378
+   macro avg      0.706     0.754     0.723      1378
+weighted avg      0.836     0.809     0.819      1378
+
+Training Meta Classifier...
+
+Meta Classifier Performance:
+                precision    recall  f1-score   support
+
+          hope      0.890     0.916     0.902       379
+          hate      0.882     0.892     0.887       260
+not_applicable      0.926     0.908     0.917       739
+
+      accuracy                          0.907      1378
+     macro avg      0.899     0.905     0.902      1378
+  weighted avg      0.907     0.907     0.907      1378
+
